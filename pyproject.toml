@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "offline_eth_wallet"
+version = "0.1.0"
+description = "A project to generate secure Ethereum paper wallets."
+authors = ["Starkzarn"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+eth-account = "^0.13.0"
+eth-utils = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
