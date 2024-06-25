@@ -1,8 +1,12 @@
 # test_generate_wallet.py
 
+from pathlib import Path
 import pytest
+import sys
 from eth_account import Account
 from eth_utils import is_checksum_address
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from generate_wallet import create_account, verify_mnemonic, verify_private_key, save_wallet_to_file
 
 # Test parameters
