@@ -390,13 +390,13 @@ tools = ["hypothesis (>=4.18.2,<5.0.0)"]
 
 [[package]]
 name = "eth-account"
-version = "0.13.0"
+version = "0.13.1"
 description = "eth-account: Sign Ethereum transactions and messages with local private keys"
 optional = false
 python-versions = "<4,>=3.8"
 files = [
-    {file = "eth_account-0.13.0-py3-none-any.whl", hash = "sha256:84d27664038c68e6bee28fa5de803c3b629dc5d97cd61d12e5f442c561a5b8af"},
-    {file = "eth_account-0.13.0.tar.gz", hash = "sha256:ccea4383d9d37b46e17c977b0a5ea397cef1ac1ad3330431ae4b0c10b62d4fcd"},
+    {file = "eth_account-0.13.1-py3-none-any.whl", hash = "sha256:da864838a766345f25c66ead579b1077e3a5b8a825dd728055f341a13ee657d8"},
+    {file = "eth_account-0.13.1.tar.gz", hash = "sha256:a42a613481fda9d27e5e355f15e0ea24fd42ebdf01b0c074e399acddce5087a3"},
 ]
 
 [package.dependencies]
@@ -412,7 +412,7 @@ pydantic = ">=2.0.0"
 rlp = ">=1.0.0"
 
 [package.extras]
-dev = ["build (>=0.9.0)", "bumpversion (>=0.5.3)", "coverage", "hypothesis (>=4.18.0,<5)", "ipython", "pre-commit (>=3.4.0)", "pytest (>=7.0.0)", "pytest-xdist (>=2.4.0)", "sphinx (>=6.0.0)", "sphinx-autobuild (>=2021.3.14)", "sphinx-rtd-theme (>=1.0.0)", "towncrier (>=21,<22)", "tox (>=4.0.0)", "twine", "wheel"]
+dev = ["build (>=0.9.0)", "bumpversion (>=0.5.3)", "coverage", "hypothesis (>=4.18.0,<5)", "ipython", "mypy (==1.10.0)", "pre-commit (>=3.4.0)", "pytest (>=7.0.0)", "pytest-xdist (>=2.4.0)", "sphinx (>=6.0.0)", "sphinx-autobuild (>=2021.3.14)", "sphinx-rtd-theme (>=1.0.0)", "towncrier (>=21,<22)", "tox (>=4.0.0)", "twine", "wheel"]
 docs = ["sphinx (>=6.0.0)", "sphinx-autobuild (>=2021.3.14)", "sphinx-rtd-theme (>=1.0.0)", "towncrier (>=21,<22)"]
 test = ["coverage", "hypothesis (>=4.18.0,<5)", "pytest (>=7.0.0)", "pytest-xdist (>=2.4.0)"]
 
